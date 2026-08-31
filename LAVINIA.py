@@ -34,9 +34,9 @@ for x in range(FILEIRAS):
         text=codigo,
         width=45,
         height=40,
-        fg_color="#000000",
-        hover_color="#000000"
+        fg_color="#0A7400",
+        hover_color="#FF0000"
     )
-        btn.grid(row=x, column=y - 1, padx=4, pady=4)
+        btn.grid(row=x, column=y - 1, padx=4, pady=4,)
 
 app.mainloop()
